@@ -6,7 +6,7 @@ RUN apt update && apt install -y curl
 # Install state tool
 WORKDIR /root
 ADD https://platform.activestate.com/dl/cli/install.sh .
-RUN sh install.sh -n
+RUN sh install.sh -n -t /usr/bin
 
 # Install ActivePython
 WORKDIR /activepython
