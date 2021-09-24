@@ -10,4 +10,4 @@ RUN sh install.sh -n -t /usr/bin
 
 # Install ActivePython
 WORKDIR /activepython
-RUN state activate -n ActiveState/ActivePython-3.8  --path .
+RUN state activate -n ActiveState/ActivePython-3.8  --default
