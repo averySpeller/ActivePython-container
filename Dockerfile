@@ -1,3 +1,5 @@
+FROM ubuntu
+
 # Install state tool
 WORKDIR /root
 ADD https://platform.activestate.com/dl/cli/install.sh .
